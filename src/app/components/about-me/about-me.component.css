@@ -27,5 +27,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 50px;
+}
+
+.about-me-footer-button {
+  padding: 10px 0;
+}
+
+@media (max-width: 953px) {
+  .about-me-footer {
+    flex-direction: column;
+  }
 }
